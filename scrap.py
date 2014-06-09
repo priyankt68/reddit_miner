@@ -5,7 +5,7 @@ import pymongo
 # connect to mongo
 connection = pymongo.Connection("mongodb://localhost", safe=True)
 
-# get a handle to the reddit database
+# get a handle to the reddit databas
 db=connection.reddit
 stories = db.stories
 
